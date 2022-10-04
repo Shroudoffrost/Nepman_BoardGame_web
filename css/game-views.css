@@ -1,0 +1,13 @@
+.main-menu {
+    padding-top: 95px;
+    padding-left: 211px;
+}
+
+.view {
+    padding-left: 325px;
+    padding-top: 50px;
+}
+
+.invisible {
+    display: none;
+}
