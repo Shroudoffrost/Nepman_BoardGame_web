@@ -1,46 +1,68 @@
+.button-panel {
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 145px;
+    /* outline: 1px solid black; */
+}
+
+.main-menu-controls {
+    display: inline-block;
+    margin-top: 448px;
+    margin-left: 296px;
+    /* outline: 1px solid black; */
+}
+
 .btn {
-    padding-top: 7px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 40px;
-    background-color: #afaa95;
-    border-top: 0px solid rgb(54, 43, 17);
-    border-left: 2px solid rgb(54, 43, 17);
-    border-right: 0px solid rgb(54, 43, 17);
-    border-bottom: 7px solid rgb(59, 43, 17);
-    border-radius: 11px;
-    /* box-shadow: -2px 7px 3px rgb(90, 90, 90); */
-    text-align: center;
-    color:rgb(34, 29, 25);
+    display: block;
     width: 170px;
     height: 55px;
+    background-color: #afaa95;
+    border-radius: 11px;
+    border-left: 1px solid rgb(54, 43, 17);
+    border-top: 0px solid rgb(54, 43, 17);
+    border-right: 1px solid rgb(54, 43, 17);
+    border-bottom: 7px solid rgb(59, 43, 17);
+    color:rgb(34, 29, 25);
+    text-align: center;
     font-size: 25px;
-    transition: 30ms;
+    transition: 70ms;
 }
 
 .btn:hover {
-    border-top: 3px solid rgb(77, 66, 18);
-    border-left: 4px solid rgb(77, 66, 18);
-    border-right: 2px solid rgb(77, 66, 18); 
-    border-bottom: 4px solid rgb(77, 66, 18);
+    border-top: 3px solid rgb(59, 43, 17);
+    border-left: 4px solid rgb(59, 43, 17);
+    border-right: 2px solid rgb(59, 43, 17);
+    border-bottom: 4px solid rgb(59, 43, 17);
     background-color: #afaa95;
-    text-shadow: 5px 2px 18px rgb(233, 229, 225);
+    box-shadow: 0px 9px 6px inset rgb(90, 90, 90);
 }
 
 .display {
-    margin-bottom: 32px;
-    margin-left: 55px;
-    width: 70px;
-    height: 45px;
+    display: block;
+    width: 40px;
+    height: 35px; 
     background-color: black;
-    font-size: 35px;
-    text-align: center;
-    color: rgb(0 154 34);
     border-radius: 5px;
-    outline: 4px solid rgb(112, 93, 70);
-    border-top: 1px solid rgb(77, 66, 18);
-    border-left: 2px solid rgb(77, 66, 18);
-    border-right: 1px solid rgb(77, 66, 18);
-    border-bottom: 2px solid rgb(77, 66, 18);
-    box-shadow: 0px 0px 11px inset rgb(163, 148, 119);
+    border-bottom: 1px solid rgb(59, 43, 17);
+    border-top: 1px solid rgb(83, 83, 83);
+    border-right: 2px solid rgb(129, 129, 129);
+    font-size: 30px;
+    text-align: center;
+    color: rgb(83, 83, 83);
+}
+
+.in-btn-panel-position {
+   margin-bottom: 7px;
+}
+
+.display-position {
+    margin-left: 32px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.in-main-menu {
+    margin-top: 72px;
+    margin-left: 20px;
+    float: right;
 }

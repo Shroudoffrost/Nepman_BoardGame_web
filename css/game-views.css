@@ -1,6 +1,13 @@
 .main-menu {
-    padding-top: 95px;
-    padding-left: 211px;
+    width: 871px;
+    height: 543px;
+    margin-left: 170px;
+    margin-top: 80px;
+    background-size: cover;
+    background-position-y: -2px;
+    border-radius: inherit;
+    background-image: url(
+        img/background/Main_menu.png);
 }
 
 .view {

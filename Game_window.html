@@ -4,7 +4,7 @@
         <title>Нэпмпан</title>
         <link rel="stylesheet" href="css/defaults.css">
         <link rel="stylesheet" href="css/game-window.css"/>
-        <link rel="stylesheet" href="css/fonts.css"/>
+        <!-- <link rel="stylesheet" href="css/fonts.css"/> -->
         <link rel="stylesheet" href="css/controls.css"/>
         <link rel="stylesheet" href="css/tiles.css"/>
         <link rel="stylesheet" href="css/game-views.css"/>
@@ -12,24 +12,29 @@
 
     <body class="main-window">
 
-            <article class="button-panel invisible">
-                <input class="display" placeholder="4" disabled/>
-                <button class="btn">Кинь кубик</button>
-                <button class="btn">Сделай ход</button>
-                <button class="btn">Смени вид</button>
-                <button class="btn">Купи</button>
-                <button class="btn">Продай</button>
-            </article>
+        <article class="button-panel invisible">
+            <input class="display display-position" placeholder="4" disabled/>
+            <button class="btn in-btn-panel-position">Кинь кубик</button>
+            <button class="btn in-btn-panel-position">Сделай ход</button>
+            <button class="btn in-btn-panel-position">Смени вид</button>
+            <button class="btn in-btn-panel-position">Купи</button>
+            <button class="btn in-btn-panel-position">Продай</button>
+        </article>
 
-            <section class="game-board">
-                <article class="main-menu">
-                    <img src="css/img/background/Main_menu.png"/>
-                    <button class="btn">Начать игру</button>
-                </article>
-                <section class="full view">
-                    
-                </section>
+        <section class="game-board">
+            
+            <section class="main-menu">
+                <section class="main-menu-controls">
+                    <input class="display display-position"/>
+                    <button class="btn in-main-menu" onclick="blabla()">Начать игру</button>
+                </section> 
             </section>
+
+            <section class="full view">
+                
+            </section>
+        </section>
+        <script src="js/Nepman_unsorted.js"></script>
     </body>
 
 </html>
