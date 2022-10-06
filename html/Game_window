@@ -2,12 +2,12 @@
 <html>
     <head>
         <title>Нэпмпан</title>
-        <link rel="stylesheet" href="css/defaults.css">
-        <link rel="stylesheet" href="css/game-window.css"/>
-        <!-- <link rel="stylesheet" href="css/fonts.css"/> -->
-        <link rel="stylesheet" href="css/controls.css"/>
-        <link rel="stylesheet" href="css/tiles.css"/>
-        <link rel="stylesheet" href="css/game-views.css"/>
+        <link rel="stylesheet" href="../css/defaults.css">
+        <link rel="stylesheet" href="../css/game-window.css"/>
+        <link rel="stylesheet" href="../css/fonts.css"/>
+        <link rel="stylesheet" href="../css/controls.css"/>
+        <link rel="stylesheet" href="../css/tiles.css"/>
+        <link rel="stylesheet" href="../css/game-views.css"/>
     </head>
 
     <body class="main-window">
@@ -34,7 +34,7 @@
                 
             </section>
         </section>
-        <script src="js/Nepman_unsorted.js"></script>
+        <script src="./js/Nepman_unsorted.js"></script>
     </body>
 
 </html>
